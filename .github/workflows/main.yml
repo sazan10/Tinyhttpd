@@ -10,8 +10,6 @@ jobs:
     steps:
     - name: Checkout Code
       uses: actions/checkout@v4
-      with:
-        ref: fbd25cf755075d803cba09201a8f0dd6ac347c27
 
     - name: Build Code
       run: |
